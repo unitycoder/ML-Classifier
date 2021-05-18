@@ -1,0 +1,21 @@
+{
+    "name": "com.natsuite.ml.classification",
+    "version": "0.0.1",
+    "displayName": "ML Classification",
+    "description": "Object classification in Unity Engine.",
+    "unity": "2019.3",
+    "keywords": [
+        "natml",
+        "machine learning",
+        "deep learning",
+        "mobilenet",
+        "resnet",
+        "classification",
+        "object classification"
+    ],
+    "author": {
+        "name": "Yusuf Olokoba",
+        "email": "yusuf@natsuite.io",
+        "url": "https://github.com/natsuite"
+    }
+}
