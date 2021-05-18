@@ -8,6 +8,16 @@ This is a library for classifying images in Unity Engine using NatML. The follow
 - [ShuffleNet v2](https://github.com/onnx/models/tree/master/vision/classification/shufflenet)
 - [SqueezeNet 1.1](https://github.com/onnx/models/tree/master/vision/classification/squeezenet)
 
+## Setup Instructions
+This package requires NatML, so make sure NatML is imported into your project. Then in your project's `Packages/manifest.json` file, add the following:
+```json
+{
+  "dependencies": {
+    "com.natsuite.ml.classification": "git+https://github.com/natsuite/ML-Classification"
+  }
+}
+```
+
 ## Classifying an Image
 First, assign one of the included models (in the `ML` folder) to an `MLModelData` field in your script:
 ```csharp
